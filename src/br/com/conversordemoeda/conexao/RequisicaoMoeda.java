@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 public class RequisicaoMoeda {
 
     public Moeda requisicaoMoeda() {
-        URI endereco = URI.create("https://v6.exchangerate-api.com/v6/0d55aa91d0a9f07536f04320/latest/USD");
+        URI endereco = URI.create("https://v6.exchangerate-api.com/v6/API_KEY/latest/USD");
 
         HttpRequest request = HttpRequest.newBuilder().uri(endereco).build();
 
